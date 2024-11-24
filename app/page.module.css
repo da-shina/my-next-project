@@ -15,6 +15,15 @@
   gap: 64px;
   font-family: var(--font-geist-sans);
 }
+.title {
+  font-size: 3rem;
+  text-align: center;
+  color: var(--color-text-main);
+}
+.description {
+  font-size: 2rem;
+  text-align: center;
+}
 
 @media (prefers-color-scheme: dark) {
   .page {

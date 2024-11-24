@@ -5,8 +5,8 @@ export default function Home() {
   const name="世界";
   return (
     <>
-    <h1>テクノロジーの力で{name}を変える</h1>
-    <p>私たちは</p>
+    <h1 className={styles.title}>テクノロジーの力で{name}を変える</h1>
+    <p className={styles.description}>私たちは</p>
     </>
   );
 }
